@@ -1,0 +1,33 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color: lightgreen;
+    text-align: center;
+}
+
+h3{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+#main {
+    border: solid black 10px;
+    border-radius: 25px;
+}
+
+.blurbDiv {
+    border: solid black 5px;
+    border-radius: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#align {
+    display: flex;
+    justify-content: space-evenly;
+}
