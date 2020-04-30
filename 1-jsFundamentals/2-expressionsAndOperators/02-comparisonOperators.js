@@ -27,3 +27,19 @@ console.log(1 > 0 && 2 > 1);
 
 //or
 console.log(1 > 0 || 2 > 7)
+
+
+
+
+
+let fb = 15;
+
+if(fb % 3) {
+    console.log("Fizz");
+} else if (fb % 5) {
+	console.log("Buzz");
+} else if (fb % 3 && fb % 5) {
+	console.log("Fizz Buzz");
+} else {
+	Conosle.log("Better luck next time!");
+}
